@@ -1,4 +1,3 @@
-
 # Docs for the Azure Web Apps Deploy action: https://github.com/azure/functions-action
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
@@ -27,4 +26,4 @@ jobs:
           app-name: 'cipp2v232'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_06378096B5A8489FBD6065372255EC92 
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_06378096B5A8489FBD6065372255EC92 }}
